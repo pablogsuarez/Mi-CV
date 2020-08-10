@@ -1,0 +1,116 @@
+/* Declaraciones globales*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-family: Montserrat;
+}
+
+/* Header*/
+
+header {
+    background-color: #30bfaa;
+    /* background-color: #23cfa7; */
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p , header h1 {
+    display: inline-block;
+    width: 400px;
+
+}
+
+.nombre {
+    font-weight: 700;
+}
+
+.profesion {
+    font-weight: 200;
+}
+
+.sub-header{
+    /* background-color: #65adcf; */
+    background-color: #4ea8f2;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Section */
+
+.contenedor {
+    width: 960px;
+    margin: 15px auto;
+}
+
+section h3 {
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+dt {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 36px;
+    margin-bottom: 22px;
+}
+
+dd {
+    margin-left:50px;
+}
+
+ul {
+    margin-top: 12px;
+    padding: 0px;
+}
+
+ul li {
+    margin-top: 12px;
+}
+
+/* Posicionamiento imagen */
+
+.pos {
+    display: inline-block;
+    width: 68%;
+    vertical-align: top;
+}
+
+.pos-img {
+    display: inline-block;
+    width: 30%;
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+/* Enlaces */
+
+a {
+    text-decoration: none;
+    color: #4ea8f2;
+}
+
+li a:hover {
+    color: #67ab3f;
+}
+i {
+    padding-right: 10px;
+    color: #4ea8f2;
+}
